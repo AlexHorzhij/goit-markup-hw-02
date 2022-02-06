@@ -143,6 +143,11 @@ body {
     color: var(--lite-text-second);
 }
 
+.footer-contact:hover,
+.footer-contact:focus{
+color: var(--accent-text-color);
+}
+
 /* Portfolio html */
 
 /* Buttons */
