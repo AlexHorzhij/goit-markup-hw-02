@@ -30,6 +30,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+color: var(--header-text-color);
 }
 .logo-color{
     color: var(--accent-text-color);
@@ -37,7 +38,7 @@ letter-spacing: 0.03em;
 
 /* Navigation */
 
-.main-nav{
+.nav-item{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -81,6 +82,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.06em;
     color: var(--lite-text-one);
     background-color: var(--accent-text-color);
+    cursor: pointer
 }
 
 /* Features */
@@ -196,9 +198,9 @@ address{
     letter-spacing: 0.06em;
 }
 .examples-subtitl{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
 }
